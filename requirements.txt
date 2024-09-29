@@ -1,0 +1,7 @@
+python-telegram-bot==20.6
+requests==2.31.0
+reportlab==4.0.4
+python-docx==0.8.11
+arabic-reshaper==3.0.0
+python-bidi==0.4.2
+Flask==2.3.3
