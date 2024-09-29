@@ -17,7 +17,9 @@ from docx.enum.text import WD_ALIGN_PARAGRAPH
 from bidi.algorithm import get_display
 import arabic_reshaper
 import re
+from flask import Flask, request  # Add this line to import Flask
 
+# Rest of your code remains the same
 # API Keys and Tokens
 GEMINI_API_KEY = 'AIzaSyA0mYC_EoL3bVMhVRc0CF70uoeGZzVf59g'
 TELEGRAM_TOKEN = '7392459074:AAG9sixtiU91cl_qv8sqrw363ilh5PZftYo'
