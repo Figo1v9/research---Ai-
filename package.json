@@ -1,0 +1,20 @@
+{
+  "name": "telegram-research-bot",
+  "version": "1.0.0",
+  "description": "A Telegram bot for generating research papers using AI and exporting them as PDF and DOCX.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.0.0",
+    "bidi-js": "^1.0.1",
+    "docx": "^8.0.0",
+    "fs": "0.0.1-security",
+    "pdfkit": "^0.13.0",
+    "arabic-reshaper": "^2.1.0",
+    "telegraf": "^4.7.0"
+  },
+  "author": "Mohamed Khodr",
+  "license": "ISC"
+}
